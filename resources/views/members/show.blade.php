@@ -1,5 +1,6 @@
 
 
+<!-- displays members in the selected school -->
 
 @extends('../layouts/layout')
 
