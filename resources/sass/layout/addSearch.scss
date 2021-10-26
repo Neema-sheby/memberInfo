@@ -1,0 +1,83 @@
+.addSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-grey-light;
+    padding: 2rem;
+   
+    
+
+    &__box {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        &--1 {
+            width: 20rem;
+            height: 20rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 3rem 5rem;
+            background-color: $color-white;
+            //border: 2px solid $color-primary;
+            border-radius: $border-radius;
+            -webkit-border-radius: $border-radius;
+            -moz-border-radius: $border-radius;
+            -ms-border-radius: $border-radius;
+            -o-border-radius: $border-radius;
+            box-shadow: 0 1px 16px -4px #000;
+        }
+    }
+
+    &__btn-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-top: 1px solid $color-primary;
+        padding: 2rem;
+    }
+
+    &__link,
+    &__link:link,
+    &__link:visited {
+        text-decoration: none;
+        border: 1px solid $color-primary;
+        color: $color-primary;
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        border-radius: $border-radius;
+        -webkit-border-radius: $border-radius;
+        -moz-border-radius: $border-radius;
+        -ms-border-radius: $border-radius;
+        -o-border-radius: $border-radius;
+        transition: .6s all;
+        -webkit-transition: .6s all;
+        -moz-transition: .6s all;
+        -ms-transition: .6s all;
+        -o-transition: .6s all;
+}
+
+    &__link:hover {
+        // background-color: $color-primary;
+        // color: $color-white;
+        border:none;
+        box-shadow: 0 1px 8px -4px #000;
+    }
+
+    p {
+        font-size: 0.8rem;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    ion-icon {
+        font-size: 7rem;
+        color: $color-primary;
+        padding:2rem;
+      }
+
+    
+}
